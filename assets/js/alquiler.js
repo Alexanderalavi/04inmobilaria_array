@@ -1,1 +1,1 @@
-renderLibros(librosVenta, "#todosLibrosVenta", librosVenta.length)
+renderPropiedades(propiedadesAlquiler, "#todasPropiedadesAlquiler", propiedadesAlquiler.length)

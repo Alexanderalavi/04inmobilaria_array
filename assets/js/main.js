@@ -21,5 +21,6 @@ function renderPropiedades(propiedades, contenedorID, max =3){
 
 renderPropiedades(propiedadesVenta, "#destacadosVenta")
 
+renderPropiedades(propiedadesAlquiler, "#destacadosAlquiler")
 
 
