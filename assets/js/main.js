@@ -11,9 +11,8 @@ function renderPropiedades(propiedades, contenedorID, max =3){
         <p> ${propiedad.descripcion}</p>
          <p> 📍 ${propiedad.ubicacion}</p>
           <p> 🛏️${propiedad.habitaciones} habitaciones | 🚽 ${propiedad.banos} baño</p>
-        <span>${propiedad.smoke=== "true" ? "🚬Permitido Fumar" : "🚭 Prohibido Fumar"}</span>
-        <br>
-         <span>${propiedad.pets === "true" ? "🐈‍Mascotas Permitidas" : "🚫No se permiten mascotas"}</span>
+        <p class = "${propiedad.smoke}">${propiedad.smoke=== "true" ? "🚬Permitido Fumar" : "🚭 Prohibido Fumar"}</p>
+         <p class = "${propiedad.pets}">${propiedad.pets === "true" ? "🐈‍Mascotas Permitidas" : "🚫No se permiten mascotas"}</>
         </div>
         `
     }

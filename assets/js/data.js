@@ -7,8 +7,8 @@ const propiedadesVenta = [
       habitaciones: 4,
       banos: 4,
       costo: 5000,
-      smoke: false,
-      pets: false,
+      smoke: "false",
+      pets: "false",
       tipo: "venta"
     },
     {
@@ -19,8 +19,8 @@ const propiedadesVenta = [
         habitaciones: 2,
         banos: 1,
         costo: 1200,
-        smoke: true,
-        pets: true,
+        smoke:"true",
+        pets: "true",
         tipo: "venta"
         },
     {
@@ -31,8 +31,8 @@ const propiedadesVenta = [
         habitaciones: 3,
         banos: 3,
         costo: 4500,
-        smoke: false,
-        pets: true,
+        smoke: "false",
+        pets: "true",
         tipo: "venta"
             },
         {
@@ -43,8 +43,8 @@ const propiedadesVenta = [
         habitaciones: 2,
         banos: 1,
          costo: 2300,
-        smoke: false,
-        pets: false,
+        smoke: "false",
+        pets: "false",
         tipo: "venta"
          },
         ]
@@ -59,9 +59,9 @@ const propiedadesAlquiler = [
       habitaciones: 2,
       banos: 2,
       costo: 2000,
-      smoke: false,
+      smoke: "false",
       tipo: "alquiler",
-      pets: true
+      pets: "true"
     },
     {
         nombre: "Apartamento luminoso con vista al mar",
@@ -71,9 +71,9 @@ const propiedadesAlquiler = [
         habitaciones: 3,
         banos: 3,
         costo: 2500,
-        smoke: true,
+        smoke: "true",
         tipo: "alquiler",
-        pets: true
+        pets: "true"
         },
     {
          nombre: "Condominio moderno en zona residencial",
@@ -83,9 +83,9 @@ const propiedadesAlquiler = [
         habitaciones: 2,
         banos: 2,
         costo: 2200,
-        smoke: false,
+        smoke: "false",
         tipo: "alquiler",
-        pets: false
+        pets: "false"
             },
         {
         nombre: "Casa en medio del bosque",
@@ -95,9 +95,9 @@ const propiedadesAlquiler = [
         habitaciones: 2,
         banos: 1,
          costo: 1900,
-        smoke: false,
+        smoke: "false",
         tipo: "alquiler",
-        pets: false
+        pets: "false"
          },
         ]
         
